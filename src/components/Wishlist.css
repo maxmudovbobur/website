@@ -1,0 +1,77 @@
+.wishlist-container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.wishlist-header,
+.recommend-header,
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.wishlist-items,
+.cart-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.wishlist-card,
+.cart-card {
+  position: relative;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s;
+  background: #fff;
+}
+
+
+.wishlist-card img,
+.cart-card img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0;
+  height: 40px;
+  overflow: hidden;
+}
+
+.price {
+  color: #e63946;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+button {
+  color: rgb(9, 2, 2);
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #c2bfbf;
+}
+
+.delete {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+

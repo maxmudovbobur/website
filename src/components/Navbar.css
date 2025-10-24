@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav h1 {
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav1 button{
+  border: none;
+  
+}
+.middle-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.middle-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.middle-nav a:hover {
+  color: #007BFF;
+}
+
+.right-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.naw {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.naw button {
+  margin: 0;
+  color: #666;
+  border: none;
+  background: white;
+  font-size: 14px;
+}
+
+.naw1 {
+  display: flex;
+  margin-top: 5px;
+  gap: 15px;
+}
+
+.naw1 svg {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.naw1 svg:hover {
+  transform: scale(1.1);
+  fill: #007BFF;
+}
+
+.naw{
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+.naw button{
+  
+}
+.naw1 span{
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -15px;
+  font-weight: bold;
+}
+.right-nav .naw1 svg:first-child {
+  color: red;       
+  font-size: 24px;   
+}
+

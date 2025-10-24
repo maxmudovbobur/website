@@ -1,0 +1,97 @@
+.checkout-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.checkout-left {
+  flex: 1;
+}
+
+.checkout-left form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkout-left input[type="text"],
+.checkout-left input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.checkout-right {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkout-item img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.checkout-summary {
+  margin: 15px 0;
+}
+
+.checkout-summary div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.payment-method {
+  margin: 15px 0;
+}
+
+.payment-method label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.coupon-section {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.coupon-section input {
+  flex: 1;
+  padding: 8px;
+}
+
+.coupon-section button {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.place-order {
+  width: 100%;
+  padding: 12px;
+  background: #e63946;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
