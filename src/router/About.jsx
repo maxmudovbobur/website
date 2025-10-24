@@ -11,10 +11,12 @@ function About() {
       <div className="breadcrumb">
         <span>Home</span> / <span className="active">About</span>
       </div>
+      
+      
 
       <div className="story-section">
         <div className="story-text">
-          <h2>Our Story</h2>
+          <h2>Our Storyy</h2>
           <p>
             Launced in 2015, Exclusive is South Asia’s premier online shopping marketplace with an active
             presence in Bangladesh. Supported by a wide range of tailored marketing, data and service
