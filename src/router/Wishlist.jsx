@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import '../components/Wishlist.css';
-
 import googleLogo from "../assets/google-play.png";
 import appleLogo from "../assets/app-store.png";
 import qrCode from "../assets/qr.png";

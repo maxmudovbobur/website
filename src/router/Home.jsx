@@ -263,9 +263,7 @@ function Home() {
       <p>{item.price}$</p>
     </div>
   ))}
-
-
-
+  
         {!selectedCardId && visibleCount < data.length && (
           <center>
             <button className="view-btn" onClick={handleLoadMore}>
