@@ -11,9 +11,6 @@ function About() {
       <div className="breadcrumb">
         <span>Home</span> / <span className="active">About</span>
       </div>
-      
-      
-
       <div className="story-section">
         <div className="story-text">
           <h2>Our Storyy</h2>
